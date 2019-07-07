@@ -1,0 +1,128 @@
+/* ---------------------------------------------- */
+/* BASIC SETUP */
+/* ---------------------------------------------- */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    background-color: #fff;
+    color: #555;
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+}
+
+.clearfix {zoom: 1}
+.clearfix:after {
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+
+
+ul {
+  list-style-image: url('square_2.png');
+}
+
+ol {
+  list-style-type: upper-roman;
+}
+
+/* ---------------------------------------------- */
+/* REUSABLE COMPONENTS */
+/* ---------------------------------------------- */
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;   /* top right bottom left  or  top and bottom left and right */
+}
+
+section {
+    padding: 80px 0;
+}
+
+.box {
+    padding: 1%;
+}
+
+/* ------ HEADING ------ */
+
+h1 {
+    color: rgba(255, 251, 251, 0.5);
+    font-size: 500%;
+    margin-top: 50%;
+    font-weight: 400;
+}
+
+h2 {
+    font-size: 100%;
+    font-weight: 300;
+    color: #666;
+}
+
+h3 {
+    text-align: center;
+    letter-spacing: 4px;
+    font-weight: 300;
+}
+
+/* ---------------------------------------------- */
+/* HEADER */
+/* ---------------------------------------------- */
+
+header {
+    background-image: linear-gradient(rgba(72, 72, 72, 0.81), rgba(0, 0, 0, 0.7)), url(recipe-project-peach-picture.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+/* ---------------------------------------------- */
+/* DESCRIPTIONS */
+/* ---------------------------------------------- */
+
+.description-box {
+    text-align: center;
+    border-right: 2px solid #adacac;
+}
+
+.description-box a {
+    font-size: 80%;
+    color: #666;
+}
+
+.description {
+    padding: 40px 0; 
+    background-color: #ccc;
+}
+
+/* ---------------------------------------------- */
+/* INGREDIENTS */
+/* ---------------------------------------------- */
+
+.ingredients ul li {
+    margin-left: 40px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+.ingredients ol li {
+    margin-left: 40px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+
+
+/*<img src="recipe-project-peach-picture.jpg" alt="Peach Cake">*/
